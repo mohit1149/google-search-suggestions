@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.google-image {
+  height: 25vh;
+  width: 80vh;
+  margin-top: 10vh;
+}
+.bottom-container {
+  margin-top: 15px;
+  box-shadow: 0px 4px 16px 0px;
+  min-height: 5vh;
+  width: 80vh;
+  border-radius: 20px;
+}
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.search-icon {
+  height: 30px;
+  width: 30px;
+  padding: 2px;
+}
+.search-bar {
+  width: 73vh;
+  border-width: 0px;
+  outline: none;
+  font-size: 15px;
+}
+.list-container {
+  list-style-type: none;
+}
